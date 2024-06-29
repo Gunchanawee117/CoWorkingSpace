@@ -1,0 +1,87 @@
+table {
+    border-collapse: collapse;
+    width: 80%;
+    margin: 20px auto;
+
+}
+
+th,
+td {
+    border: 5px solid #a1630c;
+    padding: 20px;
+    text-align: center;
+
+}
+
+th {
+    background-color: #ffb700;
+    border: 5px solid #a1630c;
+}
+
+tr:nth-child(even) {
+    background-color: #ffb700;
+}
+
+tr:hover {
+    background-color: #a1630c;
+}
+
+/* สีของการจอง */
+.meeting {
+    background-color: orange;
+}
+
+.discussion {
+    background-color: green;
+}
+
+.submeeting {
+    background-color: yellow;
+}
+
+/* รูปแบบของช่องว่าง */
+.empty-slot {
+    background-color: white;
+    cursor: pointer;
+}
+
+
+
+form {
+    text-align: center;
+}
+
+label {
+    display: block;
+}
+
+/* ปุ่มวันก่อนหน้าและวันถัดไป */
+.date-navigation {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.date-navigation button {
+    margin: 0 10px;
+}
+
+input[type="date"] {
+    width: 200px;
+}
+
+td.empty-slot:hover {
+    background-color: lightblue;
+    border: 5px solid #a1630c;
+    cursor: pointer;
+    
+}
+
+td.booked-slot {
+    background-color: #fedc60;
+    border: 5px solid #a1630c;
+    cursor: not-allowed;
+}
+
+.btn-danger1 {
+    padding: 10px;
+}

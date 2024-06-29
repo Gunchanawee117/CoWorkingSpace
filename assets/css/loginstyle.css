@@ -1,0 +1,153 @@
+body {
+    padding: 50px;
+    font-family: 'Roboto', sans-serif;
+    background-color: #F5F5F5;
+}
+
+/* Sign In Form */
+.form-section {
+    position: relative;
+    width: 500px;
+    margin: auto;
+    box-shadow: 0px 30px 125px -5px #000;
+    background-color: #FFF; /* ตั้งพื้นหลังสีขาว */
+    padding: 20px; /* เพิ่ม padding */
+}
+
+/* Background Img */
+.back-img {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    width: 49.4%;
+    height: 200px;
+    margin: 0 auto;
+    background-image: url('assets/Img/portfolio/zoneB_1.jpg'); 
+    background-size: cover;
+}
+
+.layer {
+    background-color: rgba(255, 217, 103, 0.8); 
+    background-image: url('assets/Img/portfolio/zoneB_1.jpg'); 
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+
+.active {
+    padding-left: 25px;
+    color: #fff;
+}
+
+.nonactive {
+    color: rgba(255, 255, 255, 0.6);
+}
+
+.sign-in-text {
+    top: 175px;
+    position: absolute;
+    z-index: 1;
+}
+
+/* CSS สำหรับปุ่ม Login */
+#loginBtn {
+    background: none;
+    border: none;
+    padding: 0;
+    margin-top: -25px;
+    margin-left: -250px;
+    font-size: 25px;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #ffffff;
+    border-bottom: 3px solid transparent; /* เพิ่ม border สีเทา */
+    cursor: pointer;
+}
+
+#loginBtn:hover {
+    border-bottom: 3px solid #ffffff; /* เพิ่ม border สีขาวเมื่อ hover */
+}
+
+/* CSS สำหรับปุ่ม Register */
+#registerBtn {
+    background: none;
+    border: none;
+    padding: 0;
+    margin-top: -25px;
+    margin-left: 50px;
+    font-size: 25px;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #ffffff;
+    border-bottom: 3px solid transparent; /* เพิ่ม border สีเทา */
+    cursor: pointer;
+}
+
+#registerBtn:hover {
+    border-bottom: 3px solid #ffffff; /* เพิ่ม border สีขาวเมื่อ hover */
+}
+
+
+.point {
+    position: absolute;
+    z-index: 1;
+    color: #fff;
+    top: 235px;
+    padding-left: 50px;
+    font-size: 20px;
+}
+
+/* form-section */
+.form-section {
+    padding: 70px 100px;
+}
+
+/* Username and Password Fields */
+label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+input[type="text"],
+input[type="number"],
+input[type="email"],
+input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 15px;
+}
+
+/* Keep me signed in and Forgot password text */
+.keep-text {
+    font-size: 15px;
+    color: #BDBDBD;
+}
+
+.forgot-text {
+    font-size: 12px;
+    color: #BDBDBD;
+    text-align: right;
+}
+
+/* sign-in-btn */
+.sign-in-btn {
+    width: 100%;
+    padding: 15px; 
+    border-radius: 20px; 
+    background-color: rgba(63, 78, 191, 1);
+    color: #fff; 
+    border: none; 
+    cursor: pointer;
+    transition: background-color 0.3s; 
+}
+
+.sign-in-btn:hover {
+    background-color: rgba(63, 78, 191, 0.8); /* เพิ่มเอฟเฟกต์ hover */
+}
